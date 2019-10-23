@@ -12,12 +12,19 @@
 		F02677DA2360F17800535E86 /* SwiftSimpleKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F02677CC2360F17800535E86 /* SwiftSimpleKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F02677EA2360F18E00535E86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02677E92360F18E00535E86 /* AppDelegate.swift */; };
 		F02677EC2360F18E00535E86 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02677EB2360F18E00535E86 /* SceneDelegate.swift */; };
-		F02677EE2360F18E00535E86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02677ED2360F18E00535E86 /* ViewController.swift */; };
 		F02677F12360F18E00535E86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F02677EF2360F18E00535E86 /* Main.storyboard */; };
 		F02677F32360F18E00535E86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F02677F22360F18E00535E86 /* Assets.xcassets */; };
 		F02677F62360F18E00535E86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F02677F42360F18E00535E86 /* LaunchScreen.storyboard */; };
 		F02678012360F18E00535E86 /* SwiftSimpleKitExamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02678002360F18E00535E86 /* SwiftSimpleKitExamplesTests.swift */; };
 		F026780C2360F18E00535E86 /* SwiftSimpleKitExamplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F026780B2360F18E00535E86 /* SwiftSimpleKitExamplesUITests.swift */; };
+		F02678182360F23400535E86 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02678172360F23400535E86 /* Controller.swift */; };
+		F026781B2360F27600535E86 /* ControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F026781A2360F27600535E86 /* ControllerView.swift */; };
+		F026781E2360F2F500535E86 /* SimpleListCellCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = F026781D2360F2F500535E86 /* SimpleListCellCompatible.swift */; };
+		F02678202360F37B00535E86 /* SimpleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F026781F2360F37B00535E86 /* SimpleListView.swift */; };
+		F02678222360F3AA00535E86 /* SimpleListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02678212360F3AA00535E86 /* SimpleListController.swift */; };
+		F02678242360F40200535E86 /* ExampleListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02678232360F40200535E86 /* ExampleListController.swift */; };
+		F02678262360F44600535E86 /* ExampleListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02678252360F44600535E86 /* ExampleListCell.swift */; };
+		F02678282360F45200535E86 /* ExampleListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02678272360F45200535E86 /* ExampleListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +61,6 @@
 		F02677E72360F18E00535E86 /* SwiftSimpleKitExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSimpleKitExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F02677E92360F18E00535E86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F02677EB2360F18E00535E86 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F02677ED2360F18E00535E86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F02677F02360F18E00535E86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F02677F22360F18E00535E86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F02677F52360F18E00535E86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -65,6 +71,14 @@
 		F02678072360F18E00535E86 /* SwiftSimpleKitExamplesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftSimpleKitExamplesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F026780B2360F18E00535E86 /* SwiftSimpleKitExamplesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSimpleKitExamplesUITests.swift; sourceTree = "<group>"; };
 		F026780D2360F18E00535E86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F02678172360F23400535E86 /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		F026781A2360F27600535E86 /* ControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerView.swift; sourceTree = "<group>"; };
+		F026781D2360F2F500535E86 /* SimpleListCellCompatible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleListCellCompatible.swift; sourceTree = "<group>"; };
+		F026781F2360F37B00535E86 /* SimpleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleListView.swift; sourceTree = "<group>"; };
+		F02678212360F3AA00535E86 /* SimpleListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleListController.swift; sourceTree = "<group>"; };
+		F02678232360F40200535E86 /* ExampleListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleListController.swift; sourceTree = "<group>"; };
+		F02678252360F44600535E86 /* ExampleListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleListCell.swift; sourceTree = "<group>"; };
+		F02678272360F45200535E86 /* ExampleListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +149,8 @@
 			isa = PBXGroup;
 			children = (
 				F02677CC2360F17800535E86 /* SwiftSimpleKit.h */,
+				F02678192360F24C00535E86 /* Common */,
+				F026781C2360F2BB00535E86 /* SimpleList */,
 				F02677CD2360F17800535E86 /* Info.plist */,
 			);
 			path = SwiftSimpleKit;
@@ -154,7 +170,7 @@
 			children = (
 				F02677E92360F18E00535E86 /* AppDelegate.swift */,
 				F02677EB2360F18E00535E86 /* SceneDelegate.swift */,
-				F02677ED2360F18E00535E86 /* ViewController.swift */,
+				F02678292360F64A00535E86 /* Example */,
 				F02677EF2360F18E00535E86 /* Main.storyboard */,
 				F02677F22360F18E00535E86 /* Assets.xcassets */,
 				F02677F42360F18E00535E86 /* LaunchScreen.storyboard */,
@@ -179,6 +195,35 @@
 				F026780D2360F18E00535E86 /* Info.plist */,
 			);
 			path = SwiftSimpleKitExamplesUITests;
+			sourceTree = "<group>";
+		};
+		F02678192360F24C00535E86 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F026781A2360F27600535E86 /* ControllerView.swift */,
+				F02678172360F23400535E86 /* Controller.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F026781C2360F2BB00535E86 /* SimpleList */ = {
+			isa = PBXGroup;
+			children = (
+				F026781D2360F2F500535E86 /* SimpleListCellCompatible.swift */,
+				F026781F2360F37B00535E86 /* SimpleListView.swift */,
+				F02678212360F3AA00535E86 /* SimpleListController.swift */,
+			);
+			path = SimpleList;
+			sourceTree = "<group>";
+		};
+		F02678292360F64A00535E86 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				F02678232360F40200535E86 /* ExampleListController.swift */,
+				F02678272360F45200535E86 /* ExampleListViewModel.swift */,
+				F02678252360F44600535E86 /* ExampleListCell.swift */,
+			);
+			path = Example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,6 +341,7 @@
 				TargetAttributes = {
 					F02677C82360F17800535E86 = {
 						CreatedOnToolsVersion = 11.1;
+						LastSwiftMigration = 1110;
 					};
 					F02677D12360F17800535E86 = {
 						CreatedOnToolsVersion = 11.1;
@@ -381,6 +427,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F02678202360F37B00535E86 /* SimpleListView.swift in Sources */,
+				F026781B2360F27600535E86 /* ControllerView.swift in Sources */,
+				F02678222360F3AA00535E86 /* SimpleListController.swift in Sources */,
+				F026781E2360F2F500535E86 /* SimpleListCellCompatible.swift in Sources */,
+				F02678182360F23400535E86 /* Controller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,8 +447,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F02677EE2360F18E00535E86 /* ViewController.swift in Sources */,
+				F02678282360F45200535E86 /* ExampleListViewModel.swift in Sources */,
+				F02678262360F44600535E86 /* ExampleListCell.swift in Sources */,
 				F02677EA2360F18E00535E86 /* AppDelegate.swift in Sources */,
+				F02678242360F40200535E86 /* ExampleListController.swift in Sources */,
 				F02677EC2360F18E00535E86 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -581,6 +634,7 @@
 		F02677DE2360F17800535E86 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 595JN5RW9J;
@@ -597,6 +651,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.pelfrey.jonah.SwiftSimpleKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -605,6 +660,7 @@
 		F02677DF2360F17800535E86 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 595JN5RW9J;
@@ -629,6 +685,7 @@
 		F02677E12360F17800535E86 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 595JN5RW9J;
 				INFOPLIST_FILE = SwiftSimpleKitTests/Info.plist;
@@ -647,6 +704,7 @@
 		F02677E22360F17800535E86 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 595JN5RW9J;
 				INFOPLIST_FILE = SwiftSimpleKitTests/Info.plist;
