@@ -10,9 +10,6 @@ import Combine
 import UIKit
 
 class ExampleListViewModel {
-    enum Section: CaseIterable {
-        case main
-    }
     
     var subject = CurrentValueSubject<[UIColor], Never>([])
     

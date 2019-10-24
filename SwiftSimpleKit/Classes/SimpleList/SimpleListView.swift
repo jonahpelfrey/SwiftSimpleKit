@@ -8,7 +8,9 @@
 
 import UIKit
 
-open class SimpleListView<Cell: UICollectionViewCell & SimpleListCellCompatible>: ControllerView {
+public typealias CompatibleCell = UICollectionViewCell & SimpleListCellCompatible
+
+open class SimpleListView<Cell: CompatibleCell>: ControllerView {
     
     lazy var collectionView: UICollectionView = {
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: createLayout())

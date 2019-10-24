@@ -11,11 +11,11 @@ import Combine
 
 open class SimpleListController<Cell: UICollectionViewCell & SimpleListCellCompatible>: Controller<SimpleListView<Cell>>, UICollectionViewDelegate {
     
-    var dataSource: UICollectionViewDiffableDataSource<Section, Cell.DataObjectType>!
-    
-    enum Section: CaseIterable {
+    public enum Section: CaseIterable {
         case main
     }
+    
+    public var dataSource: UICollectionViewDiffableDataSource<Section, Cell.DataObjectType>!
     
     override open func configure() {
         super.configure()
@@ -36,7 +36,7 @@ open class SimpleListController<Cell: UICollectionViewCell & SimpleListCellCompa
         })
     }
     
-    open func updateDataSource(_ data: [Cell.DataObjectType]) {
+    public func updateDataSource(_ data: [Cell.DataObjectType]) {
         var snapshot = NSDiffableDataSourceSnapshot<Section, Cell.DataObjectType>()
         snapshot.appendSections([.main])
         snapshot.appendItems(data)

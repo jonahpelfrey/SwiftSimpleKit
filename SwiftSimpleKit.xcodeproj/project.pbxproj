@@ -12,7 +12,6 @@
 		F02677DA2360F17800535E86 /* SwiftSimpleKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F02677CC2360F17800535E86 /* SwiftSimpleKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F02677EA2360F18E00535E86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02677E92360F18E00535E86 /* AppDelegate.swift */; };
 		F02677EC2360F18E00535E86 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02677EB2360F18E00535E86 /* SceneDelegate.swift */; };
-		F02677F12360F18E00535E86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F02677EF2360F18E00535E86 /* Main.storyboard */; };
 		F02677F32360F18E00535E86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F02677F22360F18E00535E86 /* Assets.xcassets */; };
 		F02677F62360F18E00535E86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F02677F42360F18E00535E86 /* LaunchScreen.storyboard */; };
 		F02678012360F18E00535E86 /* SwiftSimpleKitExamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02678002360F18E00535E86 /* SwiftSimpleKitExamplesTests.swift */; };
@@ -61,7 +60,6 @@
 		F02677E72360F18E00535E86 /* SwiftSimpleKitExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSimpleKitExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F02677E92360F18E00535E86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F02677EB2360F18E00535E86 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F02677F02360F18E00535E86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F02677F22360F18E00535E86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F02677F52360F18E00535E86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F02677F72360F18E00535E86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -149,8 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				F02677CC2360F17800535E86 /* SwiftSimpleKit.h */,
-				F02678192360F24C00535E86 /* Common */,
-				F026781C2360F2BB00535E86 /* SimpleList */,
+				F02678192360F24C00535E86 /* Classes */,
 				F02677CD2360F17800535E86 /* Info.plist */,
 			);
 			path = SwiftSimpleKit;
@@ -171,7 +168,6 @@
 				F02677E92360F18E00535E86 /* AppDelegate.swift */,
 				F02677EB2360F18E00535E86 /* SceneDelegate.swift */,
 				F02678292360F64A00535E86 /* Example */,
-				F02677EF2360F18E00535E86 /* Main.storyboard */,
 				F02677F22360F18E00535E86 /* Assets.xcassets */,
 				F02677F42360F18E00535E86 /* LaunchScreen.storyboard */,
 				F02677F72360F18E00535E86 /* Info.plist */,
@@ -197,13 +193,14 @@
 			path = SwiftSimpleKitExamplesUITests;
 			sourceTree = "<group>";
 		};
-		F02678192360F24C00535E86 /* Common */ = {
+		F02678192360F24C00535E86 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				F026781A2360F27600535E86 /* ControllerView.swift */,
 				F02678172360F23400535E86 /* Controller.swift */,
+				F026781C2360F2BB00535E86 /* SimpleList */,
 			);
-			path = Common;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		F026781C2360F2BB00535E86 /* SimpleList */ = {
@@ -402,7 +399,6 @@
 			files = (
 				F02677F62360F18E00535E86 /* LaunchScreen.storyboard in Resources */,
 				F02677F32360F18E00535E86 /* Assets.xcassets in Resources */,
-				F02677F12360F18E00535E86 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,14 +488,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F02677EF2360F18E00535E86 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F02677F02360F18E00535E86 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F02677F42360F18E00535E86 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
